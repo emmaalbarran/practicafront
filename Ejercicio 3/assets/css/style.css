@@ -1,0 +1,87 @@
+@import url('https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300');
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url('../fonts/coolveticarg.otf') format('opentype');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+header {
+    padding: 40px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    margin-left: 50px;
+}
+
+.cool-heading {
+    font-family: 'coolvetica', sans-serif;
+    font-weight: normal;
+    font-size: 120px;
+    color: #0a2ff1;
+    margin: 0; 
+    padding: 40px 0px 40px 0px; 
+}
+
+.cool-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #04146c;
+    margin: 0; 
+    padding: 0px 0px 20px 0px; 
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.review-container {
+    width: 25%;
+    padding: 1em;
+    background-color: #eff2ff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0; 
+}
+
+.stars {
+    width: 30%;
+}
+
+.user-info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+    color: #04156c;
+}
+
+.user-comment {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #04146c;
+}
+
+.user-feedback {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: black;
+}
+
+.pbold {
+    font-weight: bold;
+}
