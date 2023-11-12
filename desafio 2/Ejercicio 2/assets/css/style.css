@@ -1,0 +1,79 @@
+@import url('https://fonts.google.com/share?selection.family=Mulish:wght@400;700;900');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    margin-top: 80px;
+    padding: 80px;
+} 
+
+.text-container {
+    flex: 1;
+    padding: 10px;
+    color: #0a2ff1;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+h1 span {
+    display: block; /* Esto hace que los spans se muestren como bloques, uno debajo del otro */
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+button {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #0a2ff1;
+    width: 400px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+}
+
+.image-container {
+    flex: 1;
+    position: relative;
+   
+}
+
+img {
+    width: 80%;
+    height: auto;
+    position: absolute;
+}
+
+img:first-child {
+    top: 200px;
+    left: 5%;
+    width: 100%;
+}
+
+img:last-child {
+    width: 50%;
+    right: 35%;
+    border: 5px solid #0a2ff1;
+}
