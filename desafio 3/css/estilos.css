@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Roboto:wght@900&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+
+}
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+.banner {
+    width: 100%; 
+    margin: 0 auto; 
+    max-height: 40vh; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+    -webkit-background-clip: text;
+    background: url('../img/fondo.jpg');
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+
+.hover-box {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    text-align: left;
+    color: black;
+}
+
+.hover-box span {
+    font-family: 'Roboto Light', sans-serif; 
+    font-size: 18px; 
+    font-weight: normal; 
+}
+
+.experiencia-laboral {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.laboral-card {
+    width: calc(33.33% - 10px);
+    position: relative;
+    overflow: hidden; 
+}
+
+.laboral-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.rosado {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100%;
+    background-color: pink;
+    transition: left 0.5s ease-in-out;
+}
+
+.texto-laboral h2 {
+    color: black;
+    font-family: 'Dongle', sans-serif;
+    font-size: 60px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.texto-laboral ul{
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+}
+
+.texto-laboral li {
+    font-family: 'Dongle', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.texto-laboral p {
+    font-family: 'Dongle', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.texto-laboral a{
+    font-family: 'Dongle', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 40px;
+}
+
+.laboral-card:hover .rosado {
+    left: 0;
+}
+
+.laboral-card:hover .laboral-img {
+    transform: scale(1.1);
+}
