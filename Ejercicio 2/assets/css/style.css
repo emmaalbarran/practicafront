@@ -1,0 +1,58 @@
+@import url('https://fonts.google.com/share?selection.family=Roboto:wght@300;400;700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.palette-image {
+    max-width: 100%;
+}
+
+.text-content {
+    padding: 20px 30px 20px 120px;
+}
+
+.coolorist-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: #0a2ff1;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #04146c;
+}
+
+.ranking {
+    font-size: 16px;
+    color: #04146c;
+    font-weight: 700;
+}
+
+.opinions {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.stars-container {
+    margin-top: 10px; 
+    
+}
+
+.stars {
+    width: 30%;
+}
