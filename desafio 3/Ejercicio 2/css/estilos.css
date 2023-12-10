@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
+
+h1 {
+    font-family: 'Dongle', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+@keyframes moveText {
+    0% {
+      margin-left: 0; /* Iniciar con margen izquierdo cero */
+    }
+    100% {
+      margin-left: 600px; /* Desplazar hacia la derecha */
+    }
+  }
+
+  .container {
+    margin-left: 20px;
+  }
+  
+  .texto {
+    font-family: 'Dongle', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px; /* Agregar espacio entre los cuadros */
+    padding: 15px; /* Agregar relleno interno */
+    width: 1024px; /* Ancho más grande */
+    animation: moveText 1s linear forwards;
+  }
+  
+  .orange {
+    background-color: orange;
+    animation-delay: 0.5s;
+  }
+  
+  .palegoldenrod {
+    background-color: palegoldenrod;
+    animation-delay: 1s;
+  }
+  
+  .pink {
+    background-color: pink;
+    animation-delay: 1.5s;
+  }
+
+  
